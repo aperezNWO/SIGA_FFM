@@ -864,3 +864,4 @@ C:\Users\pablo.perez\dev\____fbdev\LuisAriza\src\git_hub\SIGA_FFM\Pruebas.Client
 C:\Users\pablo.perez\dev\____fbdev\LuisAriza\src\git_hub\SIGA_FFM\Pruebas.Cliente\obj\Debug\net8.0\Pruebas.Cliente.pdb
 C:\Users\pablo.perez\dev\____fbdev\LuisAriza\src\git_hub\SIGA_FFM\Pruebas.Cliente\obj\Debug\net8.0\Pruebas.Cliente.genruntimeconfig.cache
 C:\Users\pablo.perez\dev\____fbdev\LuisAriza\src\git_hub\SIGA_FFM\Pruebas.Cliente\obj\Debug\net8.0\ref\Pruebas.Cliente.dll
+C:\Users\pablo.perez\dev\____fbdev\LuisAriza\src\git_hub\SIGA_FFM\Pruebas.Cliente\obj\Debug\net8.0\Pruebas.Cliente.sourcelink.json
