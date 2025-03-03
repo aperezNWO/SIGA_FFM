@@ -11,9 +11,9 @@ namespace Pruebas.Cliente.Repositorio
 {
     public class Repositorio_Usuario : IUsuario
     {
-        private readonly MvcContext _dbContext;
+        private readonly SigaFfmContext _dbContext;
 
-        public Repositorio_Usuario(MvcContext dbContext)
+        public Repositorio_Usuario(SigaFfmContext dbContext)
         {
             _dbContext = dbContext;
         }

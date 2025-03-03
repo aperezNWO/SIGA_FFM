@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\models\\tblproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\models\\tblproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\views\\producto\\agregarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\views\\producto\\agregarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\models\\tblusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\models\\tblusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\views\\usuario\\usuariospartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\views\\usuario\\usuariospartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\views\\usuario\\eliminarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\views\\usuario\\eliminarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\views\\usuario\\editarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\views\\usuario\\editarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 32,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -163,84 +138,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TblProducto.cs",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Models\\TblProducto.cs",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Models\\TblProducto.cs",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Models\\TblProducto.cs",
-              "RelativeToolTip": "Pruebas.Cliente\\Models\\TblProducto.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAnwBMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T20:49:15.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgregarProducto.cshtml",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Producto\\AgregarProducto.cshtml",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Views\\Producto\\AgregarProducto.cshtml",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Producto\\AgregarProducto.cshtml",
-              "RelativeToolTip": "Pruebas.Cliente\\Views\\Producto\\AgregarProducto.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwB4AAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T20:49:08.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TblUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Models\\TblUsuario.cs",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Models\\TblUsuario.cs",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Models\\TblUsuario.cs",
-              "RelativeToolTip": "Pruebas.Cliente\\Models\\TblUsuario.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAnwBMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T20:48:49.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuariosPartialView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Usuario\\UsuariosPartialView.cshtml",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Views\\Usuario\\UsuariosPartialView.cshtml",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Usuario\\UsuariosPartialView.cshtml",
-              "RelativeToolTip": "Pruebas.Cliente\\Views\\Usuario\\UsuariosPartialView.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwB0AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T20:48:43.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EliminarUsuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Usuario\\EliminarUsuario.cshtml",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Views\\Usuario\\EliminarUsuario.cshtml",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Usuario\\EliminarUsuario.cshtml",
-              "RelativeToolTip": "Pruebas.Cliente\\Views\\Usuario\\EliminarUsuario.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwCgAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T20:48:26.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditarUsuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Usuario\\EditarUsuario.cshtml",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Views\\Usuario\\EditarUsuario.cshtml",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Views\\Usuario\\EditarUsuario.cshtml",
-              "RelativeToolTip": "Pruebas.Cliente\\Views\\Usuario\\EditarUsuario.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAvwCoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T20:48:10.269Z",
-              "EditorCaption": ""
             }
           ]
         },

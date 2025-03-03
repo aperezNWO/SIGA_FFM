@@ -17,16 +17,16 @@
 <body>
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="index.html">Cliente API</a>
+        <a class="navbar-brand ps-3" href="index.html">[SIGMA-FFMM]</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
         <!-- Navbar Search-->
-        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+        <!--<form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
             <div class="input-group">
                 <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                 <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
             </div>
-        </form>
+        </form>-->
         <!-- Navbar-->
         <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
             <li class="nav-item dropdown">
@@ -80,6 +80,22 @@
                             </nav>
                         </div>
 
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Personal
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+
+                        <div class="collapse" id="collapseProveedor" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" asp-area="" asp-controller="Personal" asp-action="PersonalIndex">Lista de Personas</a>
+                                <!--
+                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="AgregarProveedor">Agregar Proveedor</a>
+                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="ActualizarProveedor">Actualizar Proveedor</a>
+                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="EliminarProveedor">Eliminar Proveedor</a>
+                                -->
+                            </nav>
+                        </div>
                        @*  <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Proveedores

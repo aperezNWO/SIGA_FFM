@@ -8,11 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<MvcContext>(options => options.UseSqlServer(builder.Configuration.
+builder.Services.AddDbContext<SigaFfmContext>(options => options.UseSqlServer(builder.Configuration.
     GetConnectionString("defaultConnection")));
 
 builder.Services.AddScoped<IUsuario, Repositorio_Usuario>();
 builder.Services.AddScoped<IProducto, Repositorio_Producto>();
+builder.Services.AddScoped<IPersonal, Repositorio_Personal>();
 
 var app = builder.Build();
 
