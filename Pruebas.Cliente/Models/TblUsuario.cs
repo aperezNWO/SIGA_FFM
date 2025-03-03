@@ -19,7 +19,5 @@ public partial class TblUsuario
 
     public bool Activo { get; set; }
 
-    public DateTime FechaCreacion { get; set; }
-
-    public DateTime FechaCreacionDateOnly => FechaCreacion.Date;
+    public DateTime? FechaCreacion { get; set; }
 }

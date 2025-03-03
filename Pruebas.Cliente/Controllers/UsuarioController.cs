@@ -203,7 +203,7 @@ namespace Pruebas.Cliente.Controllers
                         worksheet.Cell(row, 4).Value = usuario.ApellidoMaterno;
                         worksheet.Cell(row, 5).Value = usuario.Identificacion;
                         worksheet.Cell(row, 6).Value = usuario.Cargo;
-                        worksheet.Cell(row, 7).Value = usuario.Activo;
+                        worksheet.Cell(row, 7).Value = (XLCellValue)usuario.Activo;
                         worksheet.Cell(row, 8).Value = usuario.FechaCreacion.ToString();
 
                         row++;
