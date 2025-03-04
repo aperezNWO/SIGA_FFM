@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Static Navigation - SB Admin</title>
+    <title>::[SIGA-FFMM]::</title>
     <link href="~/css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
@@ -49,12 +49,13 @@
                       @*   <div class="sb-sidenav-menu-heading">Login</div>
                         <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Login">Login</a> *@
 
-
+                        <!--
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseUsr" aria-expanded="false" aria-controls="collapseUsr">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Usuarios
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
+
 
                         <div class="collapse" id="collapseUsr" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
@@ -64,7 +65,9 @@
                                 <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="EliminarUsuario">Eliminar Usuarios</a> *@
                             </nav>
                         </div>
+                         -->
 
+                        <!--
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProd" aria-expanded="false" aria-controls="collapseProd">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Productos
@@ -79,6 +82,7 @@
                                 <a class="nav-link" asp-area="" asp-controller="Producto" asp-action="EliminarProducto">Eliminar Producto</a>
                             </nav>
                         </div>
+                        --->
 
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -88,7 +92,7 @@
 
                         <div class="collapse" id="collapseProveedor" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" asp-area="" asp-controller="Personal" asp-action="PersonalIndex">Lista de Personas</a>
+                                <a class="nav-link" asp-area="" asp-controller="Personal" asp-action="PersonalIndex">Listado de Personal</a>
                                 <!--
                                 <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="AgregarProveedor">Agregar Proveedor</a>
                                 <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="ActualizarProveedor">Actualizar Proveedor</a>
@@ -132,7 +136,12 @@
                 </main>
             </div>
 
-            <footer class="py-4 bg-light mt-auto">
+            <footer style="background-color:black; color:aqua">
+                <hr>
+                <div align="center">
+                     <h6>Aplicacion SIGA-FFMM Version [1.0.5]</h6>
+                </div>
+                <hr>
             </footer>
 
             @* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
