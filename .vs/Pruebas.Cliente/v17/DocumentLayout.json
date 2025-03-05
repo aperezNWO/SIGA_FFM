@@ -1,19 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\OneDrive\\_root\\Personal\\dev\\fbdev\\LuisAriza\\doc\\strategy.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\pruebas.cliente.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\pruebas.cliente.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|c:\\users\\pablo.perez\\dev\\____fbdev\\luisariza\\src\\git_hub\\siga_ffm\\pruebas.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3AEA28C-9896-4EEC-8898-4EA41B49BCF4}|Pruebas.Cliente\\Pruebas.Cliente.csproj|solutionrelative:pruebas.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -21,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 32,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,44 +138,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "strategy.txt",
-              "DocumentMoniker": "C:\\OneDrive\\_root\\Personal\\dev\\fbdev\\LuisAriza\\doc\\strategy.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\OneDrive\\_root\\Personal\\dev\\fbdev\\LuisAriza\\doc\\strategy.txt",
-              "ToolTip": "C:\\OneDrive\\_root\\Personal\\dev\\fbdev\\LuisAriza\\doc\\strategy.txt",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\OneDrive\\_root\\Personal\\dev\\fbdev\\LuisAriza\\doc\\strategy.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-05T01:56:11.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pruebas.Cliente",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Pruebas.Cliente.csproj",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Pruebas.Cliente.csproj",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Pruebas.Cliente.csproj",
-              "RelativeToolTip": "Pruebas.Cliente\\Pruebas.Cliente.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-05T01:54:10.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Program.cs",
-              "RelativeDocumentMoniker": "Pruebas.Cliente\\Program.cs",
-              "ToolTip": "C:\\Users\\pablo.perez\\dev\\____fbdev\\LuisAriza\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Program.cs",
-              "RelativeToolTip": "Pruebas.Cliente\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T01:53:23.884Z",
-              "EditorCaption": ""
             }
           ]
         },
