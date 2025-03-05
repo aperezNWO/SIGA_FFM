@@ -19,7 +19,41 @@ namespace Pruebas.Cliente.Controllers
 
             return View(lstPersonal);
         }
-  
+
+        public IActionResult PersonalIndexJson()
+        {
+            var lstPersonal = _personal.ObtenerPersonal(string.Empty);
+
+            return View(lstPersonal);
+        }
+
+        [Microsoft.AspNetCore.Mvc.HttpGet]
+        public Microsoft.AspNetCore.Mvc.JsonResult ObtenerPersonalJson()
+        {
+            //
+            string status                      = "OK";
+            List<Models.Personal> _lstPersonal = new List<Models.Personal>();
+            //
+            try
+            {
+                //
+                _lstPersonal = _personal.ObtenerPersonal(string.Empty);
+            }
+            catch (Exception ex)
+            {
+                //
+                status = String.Format("PERSONAL | ERROR | {0}-{1}", ex.Message, ex.StackTrace);
+                //
+                throw;
+            }
+
+            //
+            var json = Json(_lstPersonal);
+            //json.MaxJsonLength = int.MaxValue;
+            //
+            return json;
+        }
+        //
         /*
             // GET: HomeController1
             public ActionResult Index()
