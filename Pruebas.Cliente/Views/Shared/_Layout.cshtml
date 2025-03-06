@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -61,7 +62,7 @@
                 <div class="sb-sidenav-menu">
                     <div class="nav">
 
-                      @*   <div class="sb-sidenav-menu-heading">Login</div>
+                        @*   <div class="sb-sidenav-menu-heading">Login</div>
                         <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Login">Login</a> *@
 
                         <!--
@@ -75,13 +76,12 @@
                         <div class="collapse" id="collapseUsr" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Index">Lista Usuarios</a>
-                               @*  <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="AgregarUsuario">Agregar Usuarios</a>
+                        @*  <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="AgregarUsuario">Agregar Usuarios</a>
                                 <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="EditarUsuario">Actualizar Usuarios</a>
                                 <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="EliminarUsuario">Eliminar Usuarios</a> *@
                             </nav>
                         </div>
                          -->
-
                         <!--
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProd" aria-expanded="false" aria-controls="collapseProd">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -115,32 +115,32 @@
                                 -->
                             </nav>
                         </div>
-                       @*  <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor">
-                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                            Proveedores
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        @*  <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor">
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Proveedores
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
 
                         <div class="collapse" id="collapseProveedor" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                            <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="Index">Lista Proveedor</a>
-                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="AgregarProveedor">Agregar Proveedor</a>
-                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="ActualizarProveedor">Actualizar Proveedor</a>
-                                <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="EliminarProveedor">Eliminar Proveedor</a>
-                            </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="Index">Lista Proveedor</a>
+                        <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="AgregarProveedor">Agregar Proveedor</a>
+                        <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="ActualizarProveedor">Actualizar Proveedor</a>
+                        <a class="nav-link" asp-area="" asp-controller="Proveedor" asp-action="EliminarProveedor">Eliminar Proveedor</a>
+                        </nav>
                         </div>
 
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseVenta" aria-expanded="false" aria-controls="collapseVenta">
-                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                            Venta
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Venta
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
 
                         <div class="collapse" id="collapseVenta" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                            <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" asp-area="" asp-controller="Venta" asp-action="Index">Registrar Venta</a>
-                                <a class="nav-link" asp-area="" asp-controller="Venta" asp-action="BuscarVenta">Buscar Venta</a>
-                            </nav>
+                        <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" asp-area="" asp-controller="Venta" asp-action="Index">Registrar Venta</a>
+                        <a class="nav-link" asp-area="" asp-controller="Venta" asp-action="BuscarVenta">Buscar Venta</a>
+                        </nav>
                         </div> *@
             </nav>
         </div>
@@ -154,7 +154,7 @@
             <footer style="background-color:black; color:aqua">
                 <hr>
                 <div align="center">
-                     <h6>Aplicacion SIGA-FFMM Version [1.0.9]</h6>
+                    <h6>Aplicacion SIGA-FFMM Version [1.0.10]</h6>
                 </div>
                 <hr>
             </footer>
@@ -175,15 +175,6 @@
                     src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
             <script type="text/javascript"
                     src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_es.min.js"></script>
-            <script type="text/javascript"
-                    src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-            <script type="text/javascript"
-                    src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-            <script type="text/javascript"
-                    src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
-            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
-                    integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="
-                    crossorigin="anonymous"></script>
             <!-- FIN CDN / SCRIPT -->
 
         </div>
