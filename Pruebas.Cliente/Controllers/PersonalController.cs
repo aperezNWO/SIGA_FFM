@@ -26,9 +26,9 @@ namespace Pruebas.Cliente.Controllers
 
             return View(lstPersonal);
         }
-
-        [Microsoft.AspNetCore.Mvc.HttpGet]
-        public Microsoft.AspNetCore.Mvc.JsonResult ObtenerPersonalJson()
+        //
+        [HttpGet]
+        public JsonResult ObtenerPersonalJson()
         {
             //
             string status                      = "OK";
@@ -49,7 +49,33 @@ namespace Pruebas.Cliente.Controllers
 
             //
             var json = Json(_lstPersonal);
+
             //json.MaxJsonLength = int.MaxValue;
+            //
+            return json;
+        }
+        //
+        // GET: HomeController1/Delete/5
+        [HttpGet]
+        public JsonResult Delete(int id)
+        {
+            //  
+            string status     = "OK";
+            //
+            try
+            {
+                //
+                status = _personal.BorrarPersonal(id).ToString();
+            }
+            catch (Exception ex)
+            {
+                //
+                status = String.Format("PERSONAL | ERROR | {0}-{1}", ex.Message, ex.StackTrace);
+                //
+                throw;
+            }
+            //
+            var json = Json(status);
             //
             return json;
         }
@@ -109,11 +135,7 @@ namespace Pruebas.Cliente.Controllers
                 }
             }
 
-            // GET: HomeController1/Delete/5
-            public ActionResult Delete(int id)
-            {
-                return View();
-            }
+
 
             // POST: HomeController1/Delete/5
             [HttpPost]

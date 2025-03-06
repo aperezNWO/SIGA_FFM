@@ -17,26 +17,29 @@ namespace Pruebas.Cliente.Repositorio
         {
             try
             {
-                return _dbContext.Personals.Where(x => x.PNombre.Contains(nombre)).ToList();
+                return _dbContext.Personals.Where(x => x.PNombre.Contains(nombre) && (x.Estado==true)).ToList();
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-        /*
-                public TblProducto ObtenerProductos(int idProducto)
-                {
-                    try
-                    {
-                        return _dbContext.TblProductos.Where(x => x.IdProducto == idProducto).FirstOrDefault();
-                    }
-                    catch (Exception ex)
-                    {
-                        throw ex;
-                    }
-                }
 
+        public int BorrarPersonal(int id)
+        {
+            try
+            {
+                return _dbContext.Personals.Where(u => u.Id == id)
+                            .ExecuteUpdate(u => u.SetProperty(p => p.Estado, false));
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /*
+       
                 public TblProducto ActualizarProducto(TblProducto pro)
                 {
                     try

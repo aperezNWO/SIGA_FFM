@@ -6,6 +6,8 @@ namespace Pruebas.Cliente.Interface
     {
         public List<Personal> ObtenerPersonal(string? nombre);
 
+        public int BorrarPersonal(int id);
+
         //public TblProducto ObtenerProductos(int idProducto);
 
         //public TblProducto ActualizarProducto(TblProducto pro);
