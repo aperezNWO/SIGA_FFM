@@ -5,10 +5,10 @@ using Pruebas.Cliente.Interface;
 namespace Pruebas.Cliente.Controllers
 {
     public class PersonalController : Controller
-    { 
+    {
         private readonly IPersonal? _personal;
 
-        public PersonalController(IPersonal personal) 
+        public PersonalController(IPersonal personal)
         {
             _personal = personal;
         }
@@ -31,7 +31,7 @@ namespace Pruebas.Cliente.Controllers
         public JsonResult ObtenerPersonalJson()
         {
             //
-            string status                      = "OK";
+            string status = "OK";
             List<Models.Personal> _lstPersonal = new List<Models.Personal>();
             //
             try
@@ -60,7 +60,7 @@ namespace Pruebas.Cliente.Controllers
         public JsonResult Delete(int id)
         {
             //  
-            string status     = "OK";
+            string status = "OK";
             //
             try
             {
@@ -79,6 +79,36 @@ namespace Pruebas.Cliente.Controllers
             //
             return json;
         }
+        //
+        [HttpGet]
+
+        public JsonResult DeleteJson(int id)
+        {
+            //  
+            string status = "OK";
+            //
+            try
+            {
+                //
+                status = _personal.BorrarPersonal(id).ToString();
+            }
+            catch (Exception ex)
+            {
+                //
+                status = String.Format("PERSONAL | ERROR | {0}-{1}", ex.Message, ex.StackTrace);
+                //
+                throw;
+            }
+
+            var lstPersonal = _personal.ObtenerPersonal(string.Empty);
+
+            var json = Json(lstPersonal);
+
+            return json;
+        }
+
+
+
         //
         /*
             // GET: HomeController1

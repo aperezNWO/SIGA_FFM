@@ -124,11 +124,11 @@
             //
             if (recordToDelete) {
                 $.ajax({
-                    url: `Delete/${recordToDelete}`,
+                     url: `DeleteJson/${recordToDelete}`,
                     method: 'GET',
-                    success: () => {
+                   success: () => {
                         $('#deleteModal').modal('hide');
-                        //table.ajax.reload(); ERROR SIN PODER CORREGIR
+                        //table.ajax.reload(); //ERROR SIN PODER CORREGIR
                         location.reload();
                         console.log("Record Deleted " + recordToDelete);
                     },
