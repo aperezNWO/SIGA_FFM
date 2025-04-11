@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\pablo.perez\dev\cpp\TensorFlow\TensorFlow_VisualStudio\Tensorflow_NetCore\publish</_PublishTargetUrl>
-    <History>True|2025-04-10T00:37:59.7842777Z;True|2025-04-09T19:30:23.7521759-05:00;True|2025-04-09T19:15:10.1604139-05:00;</History>
+    <History>True|2025-04-11T07:54:11.7167687Z;True|2025-04-11T02:46:22.8709707-05:00;True|2025-04-11T02:34:32.6401242-05:00;True|2025-04-10T21:23:06.2425363-05:00;True|2025-04-10T21:21:32.0095811-05:00;True|2025-04-09T19:37:59.7842777-05:00;True|2025-04-09T19:30:23.7521759-05:00;True|2025-04-09T19:15:10.1604139-05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

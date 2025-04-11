@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xQ6EXVMoeoIwJjZ5xvq+/oxLCtTK2J1/c3SjkcO47temqgLAthz9iT1+2o/hbHg7O++xo4ZXeyK88odvh7ZxFQ==",
+  "dgSpecHash": "Ndh8Ht4Oa+211zfsZOCp4SQMo2J1vm9CfbNjbKVw9t4MS1ptvUCNfAH3XT5A5go+SweIZhaACBejZsQGyuZmpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pablo.perez\\dev\\cpp\\TensorFlow\\TensorFlow_VisualStudio\\Tensorflow_NetCore\\src\\git_hub\\SIGA_FFM\\Pruebas.Cliente\\Pruebas.Cliente.csproj",
+  "projectFilePath": "C:\\Users\\pablo.perez\\dev\\cpp\\TensorFlow\\TensorFlow_VisualStudio\\Tensorflow_NetCore\\src\\git_hub\\Pruebas.Cliente\\Pruebas.Cliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
